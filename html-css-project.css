@@ -1,0 +1,101 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    width: 100%;
+}
+
+body{
+    display: grid;
+    justify-items: center;
+    /* border: 1px solid #100f0f; */
+    padding: 50px 120px;
+}
+
+.nav-title{
+    display: flex;
+    border: solid;
+    padding: 5px;
+}
+
+.button{
+    display: flex;
+}
+
+.image-container {
+    width: fit-content;
+}
+
+.author-links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menubar{
+  width: 800px;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-right: none;
+  border-left: none;
+  padding: 0px 10px;
+  
+
+}
+
+.menubar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+h1{
+    display: flex;
+    border: solid;
+    justify-content: center;
+    margin: 10px 60px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+/* .author{
+    display: flex;
+    border: 1px solid #333333;
+} */
+
+.share-link{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3px;
+
+}
+
+.paragraph{
+    display: grid;
+    border: 1px solid #fefefe;
+    text-align: center;
+    margin: 10px 60px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    border: 1px solid #333333;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 60px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: square;
+
+}
+
+.basic-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 5px;
+}
